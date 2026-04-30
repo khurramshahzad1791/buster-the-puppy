@@ -1,0 +1,38 @@
+name: Buster the Puppy Daily Pipeline
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-puppy-videos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Select daily scenarios
+        run: python agent_1_scenario_selector.py
+      
+      - name: Break into scenes
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python agent_2_scene_breaker.py
+      
+      - name: Generate images
+        env:
+          LEONARDO_API_KEY: ${{ secrets.LEONARDO_API_KEY }}
+        run: python agent_3_image_generator_leonardo.py
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: buster-videos
+          path: final_videos/
