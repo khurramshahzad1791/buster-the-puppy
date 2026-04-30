@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+*.mp4
+*.wav
+*.mp3
+temp/
+output/
+final_videos/
+*.json
+!character_prompts.json
