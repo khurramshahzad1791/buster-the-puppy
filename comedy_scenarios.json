@@ -1,0 +1,30 @@
+{
+  "scenarios": [
+    {"category": "Home", "scenario": "Buster tries to help clean the house", "comedy_beat": "makes bigger mess"},
+    {"category": "Home", "scenario": "Buster tries to make breakfast", "comedy_beat": "flour explosion, sticky situation"},
+    {"category": "Home", "scenario": "Buster tries to get a toy from under couch", "comedy_beat": "gets stuck, panics"},
+    {"category": "Home", "scenario": "Buster meets the vacuum cleaner", "comedy_beat": "attacks it, gets tangled in cord"},
+    {"category": "Home", "scenario": "Buster tries to open a door", "comedy_beat": "pushes wrong way, falls backwards"},
+    {"category": "Outside", "scenario": "Buster goes to the dog park", "comedy_beat": "scares other dogs by being too friendly"},
+    {"category": "Outside", "scenario": "Buster sees his reflection in window", "comedy_beat": "thinks it's another dog, bows to it"},
+    {"category": "Outside", "scenario": "Buster chases a butterfly", "comedy_beat": "runs into a tree"},
+    {"category": "Outside", "scenario": "Buster tries to catch a ball", "comedy_beat": "ball bounces off his nose"},
+    {"category": "Garden", "scenario": "Buster tries to dig a hole", "comedy_beat": "hole collapses, he falls in"},
+    {"category": "Garden", "scenario": "Buster meets a squirrel", "comedy_beat": "squirrel outsmarts him completely"},
+    {"category": "Kitchen", "scenario": "Buster tries to steal food from counter", "comedy_beat": "knocks everything over, gets nothing"},
+    {"category": "Kitchen", "scenario": "Buster tries to drink from faucet", "comedy_beat": "can't reach, climbs, slips"},
+    {"category": "Bathroom", "scenario": "Buster tries to take a bath", "comedy_beat": "water everywhere, soap bubble disaster"},
+    {"category": "Living Room", "scenario": "Buster tries to watch TV", "comedy_beat": "gets too excited, knocks TV over"},
+    {"category": "Bedroom", "scenario": "Buster tries to jump on bed", "comedy_beat": "misses, slides down side"},
+    {"category": "Car", "scenario": "Buster's first car ride", "comedy_beat": "gets car sick, sticks head out window, ears flapping wildly"},
+    {"category": "Beach", "scenario": "Buster sees ocean for first time", "comedy_beat": "attacks wave, gets soaked, chases retreating water"},
+    {"category": "Snow", "scenario": "Buster's first snow", "comedy_beat": "slips on ice, gets buried in snow, eats too much"},
+    {"category": "Party", "scenario": "Buster tries to help at birthday party", "comedy_beat": "knocks cake over, wears plate as hat"},
+    {"category": "Vet", "scenario": "Buster goes to vet", "comedy_beat": "hides under chair, tail gives him away"},
+    {"category": "Groomer", "scenario": "Buster gets a haircut", "comedy_beat": "emerges looking ridiculous, loves it"},
+    {"category": "Neighbor", "scenario": "Buster meets fancy poodle neighbor", "comedy_beat": "tries to copy sophisticated behavior, fails"},
+    {"category": "Delivery", "scenario": "Buster vs delivery box", "comedy_beat": "destroys box, falls asleep inside"},
+    {"category": "Music", "scenario": "Buster hears music for first time", "comedy_beat": "tries to dance, very uncoordinated"},
+    {"category": "Cooking", "scenario": "Buster tries to bake cookies", "comedy_beat": "ingredients everywhere, eats raw dough"}
+  ]
+}
