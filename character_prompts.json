@@ -1,0 +1,9 @@
+{
+  "character_name": "Buster",
+  "character_type": "Golden Retriever Puppy",
+  "description": "Adorable golden retriever puppy with oversized paws, floppy ears, big brown expressive eyes, wearing a slightly crooked blue bandana",
+  "personality": "clumsy, enthusiastic, well-meaning, causes chaos accidentally, loves everyone",
+  "visual_prompt_base": "adorable golden retriever puppy with oversized paws, floppy ears, big brown eyes, wearing slightly crooked blue bandana, Pixar-style animation, cute, expressive, high quality, 4K, bright colors",
+  "seed": 12345,
+  "comedy_style": "wholesome physical comedy, things backfire spectacularly, gets stuck in small spaces, knocks things over with tail, tries to help but makes everything worse"
+}
